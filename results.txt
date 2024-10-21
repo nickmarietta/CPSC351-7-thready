@@ -1,0 +1,133 @@
+Running pattern 1
+Pattern 1 main before creating any processes
+Thread 1 created with TID: 140259068864064
+Thread 3 created with TID: 140259052078656
+Thread 2 created with TID: 140259060471360
+Thread 5 created with TID: 140259035293248
+Thread 4 created with TID: 140259043685952
+Thread 7 created with TID: 140259018507840
+Thread 6 created with TID: 140259026900544
+Thread 8 created with TID: 140259010115136
+Thread 2 has exited with TID: 140259060471360
+Thread 4 has exited with TID: 140259043685952
+Thread 6 has exited with TID: 140259026900544
+Thread 5 has exited with TID: 140259035293248
+Thread 8 has exited with TID: 140259010115136
+Thread 3 has exited with TID: 140259052078656
+Thread 1 has exited with TID: 140259068864064
+Thread 7 has exited with TID: 140259018507840
+Thread 1 exiting with PID: 140259068868416
+Thread 2 exiting with PID: 140259068868416
+Thread 3 exiting with PID: 140259068868416
+Thread 4 exiting with PID: 140259068868416
+Thread 5 exiting with PID: 140259068868416
+Thread 6 exiting with PID: 140259068868416
+Thread 7 exiting with PID: 140259068868416
+Thread 8 exiting with PID: 140259068868416
+Main of pattern 1 is now exiting.
+
+Running pattern 2
+Pattern 2 main before creating any processes
+Thread 1 created with TID: 140434903938624
+Thread 1 with TID: 140434903938624 is now creating Thread: 2
+Thread 2 created with TID: 140434827376192
+Thread 2 with TID: 140434827376192 is now creating Thread: 3
+Thread 3 created with TID: 140434818983488
+Thread 3 with TID: 140434818983488 is now creating Thread: 4
+Thread 4 created with TID: 140434810590784
+Thread 4 with TID: 140434810590784 is now creating Thread: 5
+Thread 5 created with TID: 140434802198080
+Thread 5 with TID: 140434802198080 is now creating Thread: 6
+Thread 6 created with TID: 140434793805376
+Thread 6 with TID: 140434793805376 is now creating Thread: 7
+Thread 7 created with TID: 140434785412672
+Thread 7 with TID: 140434785412672 is now creating Thread: 8
+Thread 8 created with TID: 140434777019968
+Thread 8 has exited with TID: 140434777019968
+Thread 7 has exited with TID: 140434785412672
+Thread 6 has exited with TID: 140434793805376
+Thread 5 has exited with TID: 140434802198080
+Thread 4 has exited with TID: 140434810590784
+Thread 3 has exited with TID: 140434818983488
+Thread 2 has exited with TID: 140434827376192
+Thread 1 has exited with TID: 140434903938624
+Main of pattern 2 is now exiting.
+
+Running pattern 1
+Pattern 1 main before creating any processes
+Thread 1 created with TID: 140246344828480
+Thread 2 created with TID: 140246336435776
+Thread 3 created with TID: 140246328043072
+Thread 5 created with TID: 140246311257664
+Thread 6 created with TID: 140246302864960
+Thread 4 created with TID: 140246319650368
+Thread 8 created with TID: 140246286079552
+Thread 7 created with TID: 140246294472256
+Thread 9 created with TID: 140246277686848
+Thread 10 created with TID: 140246269294144
+Thread 12 created with TID: 140246252508736
+Thread 11 created with TID: 140246260901440
+Thread 3 has exited with TID: 140246328043072
+Thread 6 has exited with TID: 140246302864960
+Thread 9 has exited with TID: 140246277686848
+Thread 8 has exited with TID: 140246286079552
+Thread 12 has exited with TID: 140246252508736
+Thread 5 has exited with TID: 140246311257664
+Thread 11 has exited with TID: 140246260901440
+Thread 7 has exited with TID: 140246294472256
+Thread 10 has exited with TID: 140246269294144
+Thread 2 has exited with TID: 140246336435776
+Thread 1 has exited with TID: 140246344828480
+Thread 4 has exited with TID: 140246319650368
+Thread 1 exiting with PID: 140246344832832
+Thread 2 exiting with PID: 140246344832832
+Thread 3 exiting with PID: 140246344832832
+Thread 4 exiting with PID: 140246344832832
+Thread 5 exiting with PID: 140246344832832
+Thread 6 exiting with PID: 140246344832832
+Thread 7 exiting with PID: 140246344832832
+Thread 8 exiting with PID: 140246344832832
+Thread 9 exiting with PID: 140246344832832
+Thread 10 exiting with PID: 140246344832832
+Thread 11 exiting with PID: 140246344832832
+Thread 12 exiting with PID: 140246344832832
+Main of pattern 1 is now exiting.
+
+Running pattern 2
+Pattern 2 main before creating any processes
+Thread 1 created with TID: 139830156990016
+Thread 1 with TID: 139830156990016 is now creating Thread: 2
+Thread 2 created with TID: 139830148597312
+Thread 2 with TID: 139830148597312 is now creating Thread: 3
+Thread 3 created with TID: 139830140204608
+Thread 3 with TID: 139830140204608 is now creating Thread: 4
+Thread 4 created with TID: 139830131811904
+Thread 4 with TID: 139830131811904 is now creating Thread: 5
+Thread 5 created with TID: 139830123419200
+Thread 5 with TID: 139830123419200 is now creating Thread: 6
+Thread 6 created with TID: 139829773858368
+Thread 6 with TID: 139829773858368 is now creating Thread: 7
+Thread 7 created with TID: 139829765465664
+Thread 7 with TID: 139829765465664 is now creating Thread: 8
+Thread 8 created with TID: 139829757072960
+Thread 8 with TID: 139829757072960 is now creating Thread: 9
+Thread 9 created with TID: 139829748680256
+Thread 9 with TID: 139829748680256 is now creating Thread: 10
+Thread 10 created with TID: 139829740287552
+Thread 10 with TID: 139829740287552 is now creating Thread: 11
+Thread 11 created with TID: 139829731894848
+Thread 11 with TID: 139829731894848 is now creating Thread: 12
+Thread 12 created with TID: 139829723502144
+Thread 12 has exited with TID: 139829723502144
+Thread 11 has exited with TID: 139829731894848
+Thread 10 has exited with TID: 139829740287552
+Thread 9 has exited with TID: 139829748680256
+Thread 8 has exited with TID: 139829757072960
+Thread 7 has exited with TID: 139829765465664
+Thread 6 has exited with TID: 139829773858368
+Thread 5 has exited with TID: 139830123419200
+Thread 4 has exited with TID: 139830131811904
+Thread 3 has exited with TID: 139830140204608
+Thread 2 has exited with TID: 139830148597312
+Thread 1 has exited with TID: 139830156990016
+Main of pattern 2 is now exiting.
