@@ -23,7 +23,7 @@ void *thread_pattern1(void *thr_arg) {
 
 void *thread_pattern2(void *thr_arg) {
     pattern_2_thread *target = (pattern_2_thread *)thr_arg;
-    // assign to keep track of Thread ID for parent
+    // assign DIRECTLY to keep track of Thread ID for parent
     long long unsigned parentTID = pthread_self();
     printf("Thread %d created with TID: %llu\n", target->cnt, parentTID);
     sleep(randomTime());
@@ -63,30 +63,30 @@ void run_patterns(int numOfThings, int pattern) {
     }
 }
 
-// forking multiple processes from the main (fork ALL processes before waiting
+// forking multiple threads from the main (fork ALL threads before waiting
 // for any of them)
 void pattern1(int numOfThings) {
     // printf("Test print\n");
-    printf("Pattern 1 main before creating any processes\n");
+    printf("Pattern 1 main before creating any threads\n");
     pthread_t exThreads[numOfThings];
 
     for (int ix = 0; ix < numOfThings; ix++) {
         pattern_1_thread *targ = malloc(sizeof(pattern_1_thread));
         targ->cnt = ix + 1;
-        pthread_create(&exThreads[ix], NULL, thread_pattern2, targ);
+        pthread_create(&exThreads[ix], NULL, thread_pattern1, targ);
     }
     for (int ix = 0; ix < numOfThings; ix++) {
         pthread_join(exThreads[ix], NULL);
-        printf("Thread %d exiting with PID: %ld\n", ix + 1, pthread_self());
+        printf("Thread %d exiting with TID: %ld\n", ix + 1, pthread_self());
     }
     printf("Main of pattern 1 is now exiting.\n");
 }
 
-// forking a single process from the main and then passing it on to the next
+// forking a single thread from the main and then passing it on to the next
 // process
 void pattern2(int numOfThings) {
     // printf("Test print\n");
-    printf("Pattern 2 main before creating any processes\n");
+    printf("Pattern 2 main before creating any threads\n");
     pthread_t exThread;
 
     pattern_2_thread *targ = malloc(sizeof(pattern_2_thread));
